@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 import datetime
@@ -60,11 +60,11 @@ def getDatesPeriodeCouranteFR():
 	return dates
 
 if __name__ == '__main__' :
-	print convertirDateUSversFR( '2017-02-01' )
-	print convertirDateFRversUS( '01/02/2017' )
-	print getDateAujourdhuiFR()
-	print getDateAujourdhuiUS()
+	print( convertirDateUSversFR( '2017-02-01' ) )
+	print( convertirDateFRversUS( '01/02/2017' ) )
+	print( getDateAujourdhuiFR() )
+	print( getDateAujourdhuiUS() )
 	
 	dates = getDatesPeriodeCouranteUS()
 	for uneDate in dates :
-		print uneDate
+		print( uneDate )
